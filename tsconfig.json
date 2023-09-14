@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "noEmit": true,
+    "strict": true,
+    "allowJs": true,
+    "lib": ["ESNext"],
+    "jsx": "preserve",
+    "composite": true,
+    "module": "esnext",
+    "target": "esnext",
+    "skipLibCheck": true,
+    "downlevelIteration": true,
+    "moduleDetection": "force",
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "types": ["bun-types"]
+  }
+}
