@@ -3,6 +3,7 @@
   "extends": ["eslint:recommended", "plugin:@typescript-eslint/recommended"],
   "plugins": ["@typescript-eslint"],
   "rules": {
+    "@typescript-eslint/no-duplicate-enum-values": "off",
     "comma-dangle": [
       "error",
       {
