@@ -91,3 +91,27 @@ export function colorizeLevel(level: LogLevel, color: keyof typeof colors) {
 
   return `${levelColor} -`
 }
+
+/**
+ * Mapping of log levels to their corresponding colors.
+ */
+export const coloredLevel = {
+  [String(LogLevel.info)]: colorizeLevel(LogLevel.info, 'blue'), // Info level is colored blue
+  [String(LogLevel.debug)]: colorizeLevel(LogLevel.debug, 'cyan'), // Debug level is colored cyan
+  [String(LogLevel.wait)]: colorizeLevel(LogLevel.wait, 'magenta'), // Wait level is colored magenta
+  [String(LogLevel.event)]: colorizeLevel(LogLevel.event, 'green'), // Event level is colored green
+  [String(LogLevel.ready)]: colorizeLevel(LogLevel.ready, 'green'), // Ready level is colored green
+  [String(LogLevel.warn)]: colorizeLevel(LogLevel.warn, 'yellow'), // Warn level is colored yellow
+  [String(LogLevel.off)]: colorizeLevel(LogLevel.off, 'gray'), // Off level is colored gray
+  [String(LogLevel.error)]: colorizeLevel(LogLevel.error, 'red'), // Error level is colored red
+  [String(LogLevel.fatal)]: colorizeLevel(LogLevel.fatal, 'red'), // Fatal level is colored red
+}
+
+/**
+ * Get the colored representation of the log level.
+ * @param level The log level.
+ * @returns The colored representation of the log level.
+ */
+export function getColoredLevel(level: LogLevel) {
+  return coloredLevel[level]
+}
