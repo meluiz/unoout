@@ -1,5 +1,11 @@
 # unoout
 
+## 0.2.0
+
+### Minor Changes
+
+- 6fccc1b: - Created an instance of Spinner, which can be used for generating logs that need to wait for a response.
+
 ## 0.1.1
 
 ### Patch Changes
