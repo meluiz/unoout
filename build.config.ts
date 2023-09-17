@@ -8,4 +8,5 @@ await Bun.build({
   outdir: './dist',
   plugins: [dts()],
   entrypoints: ['./src/index.ts'],
+  external: ['picocolors', 'log-update'],
 })
