@@ -1,4 +1,3 @@
-import { log } from 'console'
 import { stdout } from './stdout'
 
 // Define the shape of a log entry
@@ -18,7 +17,7 @@ export function logEntry(options: LogEntry) {
   const { message, level, output = 'stdout', datatime = false } = options
 
   // Determine the log function based on the output option
-  const logFunction = output === 'log' ? log : stdout
+  const logFunction = output === 'log' ? console.log : stdout
 
   // Create an array to hold the log message components
   const logMessage = []
