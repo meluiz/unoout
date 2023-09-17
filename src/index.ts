@@ -1,6 +1,7 @@
 import { Logger } from './logger'
 
 export * from './logger'
+export * from './spinner'
 
 const logger = new Logger({
   output: 'log',
