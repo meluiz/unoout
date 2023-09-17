@@ -1,11 +1,54 @@
 {
   "name": "unoout",
+  "description": "A stylish UI kit to give that visual boost to your command line.",
+  "version": "0.0.0",
+  "license": "MIT",
   "type": "module",
-  "module": "index.ts",
+  "author": {
+    "name": "meluiz",
+    "email": "me@meluiz.com",
+    "url": "https://meluiz.com"
+  },
+  "source": "./src/index.ts",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "module": "./dist/index.js",
+  "exports": {
+    "import": "./dist/index.js",
+    "types": "./dist/index.d.ts",
+    "require": "./dist/index.js",
+    "default": "./dist/index.js"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "package.json"
+  ],
+  "tags": [
+    "unoout",
+    "ui",
+    "cli",
+    "logger",
+    "spinner",
+    "stdout",
+    "output"
+  ],
+  "keywords": [
+    "unoout",
+    "ui",
+    "cli",
+    "logger",
+    "spinner",
+    "stdout",
+    "output"
+  ],
   "scripts": {
     "build": "bun run ./build.config.ts",
     "lint": "eslint . --ext .ts",
-    "format": "prettier '**/*.ts' --write"
+    "format": "prettier '**/*.ts' --write",
+    "version": "changeset version",
+    "release": "changeset publish",
+    "release:dev": "changeset version --snapshot dev && changeset publish --tag dev"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^6.7.0",
@@ -23,7 +66,20 @@
     "typescript": "^5.0.0"
   },
   "dependencies": {
+    "@changesets/cli": "^2.26.2",
     "log-update": "^5.0.1",
     "picocolors": "^1.0.0"
+  },
+  "homepage": "https://github.com/meluiz/unoout",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/meluiz/unoout"
+  },
+  "bugs": {
+    "url": "https://github.com/meluiz/unoout/issues"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8"
   }
 }
