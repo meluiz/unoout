@@ -46,16 +46,6 @@ export const boxes = {
     left: '║',
   },
   round: {
-    topLeft: '',
-    top: '',
-    topRight: '',
-    right: '',
-    bottomRight: '',
-    bottom: '',
-    bottomLeft: '',
-    left: '',
-  },
-  bold: {
     topLeft: '╭',
     top: '─',
     topRight: '╮',
@@ -64,6 +54,16 @@ export const boxes = {
     bottom: '─',
     bottomLeft: '╰',
     left: '│',
+  },
+  bold: {
+    topLeft: '┏',
+    top: '━',
+    topRight: '┓',
+    right: '┃',
+    bottomRight: '┛',
+    bottom: '━',
+    bottomLeft: '┗',
+    left: '┃',
   },
   classic: {
     topLeft: '+',
