@@ -1,5 +1,11 @@
 # unoout
 
+## 0.3.0
+
+### Minor Changes
+
+- b650a85: Created an instance of Stamp, which can be used for generating sticker panel with instructions or not
+
 ## 0.2.0
 
 ### Minor Changes
