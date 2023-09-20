@@ -1,4 +1,4 @@
-import { Logger } from '../dist'
+import { Logger } from './logger'
 import { boxes, colors, Line } from './utils'
 
 // Define the keys of the boxes object
