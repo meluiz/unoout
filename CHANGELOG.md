@@ -1,5 +1,11 @@
 # unoout
 
+## 0.3.1
+
+### Patch Changes
+
+- 4c606df: Move the `@changesets/cli` to devDependencies and add docs on README.md
+
 ## 0.3.0
 
 ### Minor Changes
