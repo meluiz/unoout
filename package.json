@@ -1,7 +1,7 @@
 {
   "name": "unoout",
   "description": "A stylish UI kit to give that visual boost to your command line.",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "license": "MIT",
   "type": "module",
   "author": {

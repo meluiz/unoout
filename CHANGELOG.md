@@ -1,5 +1,11 @@
 # unoout
 
+## 0.3.2
+
+### Patch Changes
+
+- c9ee4dc: fix(README): badge image
+
 ## 0.3.1
 
 ### Patch Changes
