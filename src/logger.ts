@@ -265,7 +265,7 @@ export class Logger {
       level,
       message,
       output: this.output,
-      datetime: true,
+      datetime: this.datetime,
     })
   }
 }
