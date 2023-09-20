@@ -1,5 +1,11 @@
 # unoout
 
+## 0.3.3
+
+### Patch Changes
+
+- 728fb56: fix: correct typo in Logger options from 'datatime' to 'datetime'
+
 ## 0.3.2
 
 ### Patch Changes
