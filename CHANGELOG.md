@@ -1,5 +1,11 @@
 # unoout
 
+## 0.3.4
+
+### Patch Changes
+
+- 8ab7deb: fix(logger.ts): fix datetime property in Logger class to use the value of this.datetime instead of hardcoded true value
+
 ## 0.3.3
 
 ### Patch Changes
