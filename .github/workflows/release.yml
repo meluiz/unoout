@@ -26,7 +26,7 @@ jobs:
         uses: changesets/action@v1
         with:
           title: Release new version
-          commit: ci: release new version
+          commit: release new version
           publish: bun run build && bun run release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
