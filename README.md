@@ -153,3 +153,10 @@ Special thanks to the libraries that inspired the creation and enhancement of `u
 - [deno-library](https://github.com/deno-library/logger) - A versatile and efficient logger for Deno.
 
 Their pioneering work was instrumental in guiding and motivating us in building this library. 🙏
+
+[typescript-image]: https://img.shields.io/badge/Typescript-294E80.svg?style=for-the-badge&logo=typescript
+[typescript-url]: "typescript"
+[npm-image]: https://img.shields.io/npm/v/unoout.svg?style=for-the-badge&logo=npm
+[npm-url]: https://npmjs.org/package/unoout 'npm'
+[license-image]: https://img.shields.io/npm/l/unoout?color=blueviolet&style=for-the-badge
+[license-url]: LICENSE.md 'license'
