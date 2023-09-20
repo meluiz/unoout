@@ -1,5 +1,11 @@
 # unoout
 
+## 0.3.5
+
+### Patch Changes
+
+- a543a28: feat(release.yml): add release workflow to automate version release process
+
 ## 0.3.4
 
 ### Patch Changes
