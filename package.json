@@ -51,6 +51,7 @@
     "release:dev": "changeset version --snapshot dev && changeset publish --tag dev"
   },
   "devDependencies": {
+    "@changesets/cli": "^2.26.2",
     "@typescript-eslint/eslint-plugin": "^6.7.0",
     "@typescript-eslint/parser": "^6.7.0",
     "bun-plugin-dts": "^0.2.0",
@@ -66,7 +67,6 @@
     "typescript": "^5.0.0"
   },
   "dependencies": {
-    "@changesets/cli": "^2.26.2",
     "log-update": "^5.0.1",
     "picocolors": "^1.0.0"
   },
