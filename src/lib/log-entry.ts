@@ -6,7 +6,7 @@ import { stdout } from './stdout'
 interface LogEntryBase {
   message: string // The log message.
   level?: string // The log level (optional).
-  datatime?: boolean // Whether to include the timestamp in the log entry (optional).
+  datetime?: boolean // Whether to include the timestamp in the log entry (optional).
 }
 
 /**
@@ -53,12 +53,12 @@ export function logEntry(options: isNotReturnOnly): void
  * @returns The formatted log message if returnOnly is true, otherwise void.
  */
 export function logEntry(options: LogEntry): string | void {
-  const { message, level, output = 'stdout', datatime = false, returnOnly = false } = options
+  const { message, level, output = 'stdout', datetime = false, returnOnly = false } = options
 
   const logMessage = []
   const logFunction = output === 'log' ? console.log : stdout
 
-  if (datatime) {
+  if (datetime) {
     logMessage.push(new Date().toISOString())
   }
 

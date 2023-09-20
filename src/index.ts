@@ -6,7 +6,7 @@ export * from './stamp'
 
 const logger = new Logger({
   output: 'log',
-  datatime: false,
+  datetime: false,
 })
 
 export default logger

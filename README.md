@@ -47,12 +47,12 @@ You can create your own Logger instance and customize its behavior:
 import { Logger } from 'unoout'
 const logger = new Logger({
   output: 'log', // or 'stdout'
-  datatime: true,
+  datetime: true,
 })
 ```
 
 - `output`: Defines the output method. If set to `log`, it will use `console.log`. If set to `stdout`, it will use `process.stdout.write`.
-- `datatime`: If true, the log will include the date in ISO format.
+- `datetime`: If true, the log will include the date in ISO format.
 
 #### Spinner
 
@@ -70,11 +70,11 @@ const spinner = new Spinner(options?);
 
 You can configure the spinner with the following options:
 
-| Option          | Type                 | Description                                       | Default                                  |
-| --------------- | -------------------- | ------------------------------------------------- | ---------------------------------------- |
-| `frames`        | `string[]`           | The sequence of frames for the spinner animation. | `['. ', '.. ', '...', ' ..', ' .', ' ']` |
-| `interval`      | `number`             | The interval (in milliseconds) between frames.    | `250`                                    |
-| `defaultLogger` | SpinnerLoggerOptions | Default logger settings for spinner messages.     | `{}`                                     |
+| Option | Type | Description | Default |
+| --- | --- | --- | --- |
+| `frames` | `string[]` | The sequence of frames for the spinner animation. | `['. ', '.. ', '...', ' ..', ' .', ' ']` |
+| `interval` | `number` | The interval (in milliseconds) between frames. | `250` |
+| `defaultLogger` | SpinnerLoggerOptions | Default logger settings for spinner messages. | `{}` |
 
 The `SpinnerLoggerOptions` allows you to configure the following:
 
@@ -147,6 +147,7 @@ stamp
 ```
 
 ### Acknowledgment
+
 Special thanks to the libraries that inspired the creation and enhancement of `unoout`:
 
 - [@poppinss/cliui](https://github.com/poppinss/cliui#installation) - An amazing command-line interface library.

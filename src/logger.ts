@@ -3,18 +3,18 @@ import { colors } from './utils'
 
 interface LoggerOptions {
   output?: 'log' | 'stdout'
-  datatime?: boolean
+  datetime?: boolean
 }
 
 export class Logger {
   private output: 'log' | 'stdout'
-  private datatime: boolean
+  private datetime: boolean
 
   constructor(options?: LoggerOptions) {
-    const { output = 'log', datatime = false } = options || {}
+    const { output = 'log', datetime = false } = options || {}
 
     this.output = output
-    this.datatime = datatime
+    this.datetime = datetime
   }
 
   /**
@@ -66,7 +66,7 @@ export class Logger {
     logEntry({
       message,
       output: this.output,
-      datatime: this.datatime,
+      datetime: this.datetime,
     })
   }
 
@@ -88,7 +88,7 @@ export class Logger {
       level,
       message,
       output: this.output,
-      datatime: this.datatime,
+      datetime: this.datetime,
     })
   }
 
@@ -110,7 +110,7 @@ export class Logger {
       level,
       message,
       output: this.output,
-      datatime: this.datatime,
+      datetime: this.datetime,
     })
   }
 
@@ -132,7 +132,7 @@ export class Logger {
       level,
       message,
       output: this.output,
-      datatime: this.datatime,
+      datetime: this.datetime,
     })
   }
 
@@ -154,7 +154,7 @@ export class Logger {
       level,
       message,
       output: this.output,
-      datatime: this.datatime,
+      datetime: this.datetime,
     })
   }
 
@@ -177,7 +177,7 @@ export class Logger {
       level,
       message,
       output: this.output,
-      datatime: this.datatime,
+      datetime: this.datetime,
     })
   }
 
@@ -199,7 +199,7 @@ export class Logger {
       level,
       message,
       output: this.output,
-      datatime: this.datatime,
+      datetime: this.datetime,
     })
   }
 
@@ -221,7 +221,7 @@ export class Logger {
       level,
       message,
       output: this.output,
-      datatime: this.datatime,
+      datetime: this.datetime,
     })
   }
 
@@ -243,7 +243,7 @@ export class Logger {
       level,
       message,
       output: this.output,
-      datatime: this.datatime,
+      datetime: this.datetime,
     })
   }
 
@@ -265,7 +265,7 @@ export class Logger {
       level,
       message,
       output: this.output,
-      datatime: true,
+      datetime: true,
     })
   }
 }
