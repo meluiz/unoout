@@ -46,3 +46,10 @@ import logger from 'unoout'
 
 logger.log('Hello World')
 ```
+
+[typescript-image]: https://img.shields.io/badge/Typescript-294E80.svg?style=for-the-badge&logo=typescript
+[typescript-url]: "typescript"
+[npm-image]: https://img.shields.io/npm/v/unoout.svg?style=for-the-badge&logo=npm
+[npm-url]: https://npmjs.org/package/unoout 'npm'
+[license-image]: https://img.shields.io/npm/l/unoout?color=blueviolet&style=for-the-badge
+[license-url]: LICENSE.md 'license'
